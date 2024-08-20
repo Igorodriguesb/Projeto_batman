@@ -108,6 +108,54 @@ li:hover{
 }
 
 
+.actor-cards-container{
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.cards-content{
+    width: 90%;
+    background-color: #d21617;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.banner-1{
+    background-image: url('https://c8.alamy.com/compfr/2htrcen/robert-pattinson-participe-a-la-premiere-mondiale-the-batman-le-01-mars-2022-a-new-york-2htrcen.jpg');
+}
+
+.banner-2{
+    background-image: url('https://phantom-telva.unidadeditorial.es/9355425def8d498ccc14ad4fc6cd4a39/resize/640/assets/multimedia/imagenes/2022/09/21/16637566504353.jpg');
+}
+
+.banner-3{
+    background-image: url('https://www.essence.com/wp-content/uploads/2022/03/TBM-LONDON-SPECIAL-SCREENING-JEFFREY-WRIGHT-3-scaled.jpg');
+}
+
+
 
 
 
